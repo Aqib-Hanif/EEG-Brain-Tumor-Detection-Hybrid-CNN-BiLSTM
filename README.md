@@ -49,27 +49,7 @@ This project investigates deep learning-based EEG classification using:
 
 ---
 
-## 🏗️ Model Architecture
-
-```
-Input (178 time steps)
-        ↓
-🧠 Conv1D (64 filters) + ReLU + MaxPooling
-        ↓
-🧠 Conv1D (128 filters) + ReLU + MaxPooling
-        ↓
-🧠 Conv1D (256 filters) + ReLU + GlobalMaxPooling
-        ↓
-🔁 Bidirectional LSTM (64 units)
-        ↓
-🎯 Dropout (0.5)
-        ↓
-🧠 Dense (64, ReLU)
-        ↓
-🎯 Dropout (0.5)
-        ↓
-🎯 Dense (1, Sigmoid)
-```
+<img width="1024" height="1536" alt="ChatGPT Image Apr 30, 2026, 12_51_02 PM" src="https://github.com/user-attachments/assets/2b7dc0ac-c54e-4191-91fc-fb1cc8808270" />
 
 ### ⚙️ Hyperparameters
 
